@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: headerFont;
-  src: url("Legacy.otf");
+  src: url("garamond/EBGaramond08-Italic.ttf");
 }
 @font-face {
   font-family: postTitleFont;
@@ -12,11 +12,11 @@
 }
 @font-face {
   font-family: postContentFont;
-  src: url("Legacy.otf");
+  src: url("garamond/EBGaramond08-Regular.ttf");
 }
 @font-face {
   font-family: navLinkFont;
-  src: url("ptsans/PTC75F.ttf");
+  src: url("garamond/EBGaramond08-Regular.ttf");
 }
 * {
   box-sizing: border-box;
@@ -41,7 +41,6 @@ body {
   height: 44px;
   width: 100%;
   box-sizing: border-box;
-  box-shadow: 0px 0px 8px 1px #222222;
   background-color: #d4d6d9;
 }
 
@@ -84,7 +83,7 @@ h1 {
   text-shadow: 2px 2px #7e8bab;
   font-family: headerFont;
   position: relative;
-  font-size: large;
+  font-size: xx-large;
 }
 
 .headerverticalcenter {
