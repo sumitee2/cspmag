@@ -102,8 +102,17 @@ a {
   display: inline;
   margin-top: 0px;
   margin-bottom: 10px;
-  padding: 10px;
+  padding: 0px;
   font-family: headerFont;
+}
+
+.headerimage {
+  height: 80px;
+  width: 70px;
+  display: inline;
+  -ms-transform: translateY(17%);
+  transform: translateY(17%);
+  margin-left: 32px;
 }
 
 .postTitle {
@@ -210,6 +219,10 @@ footer {
   }
   .headerbar {
     font-size: 15px;
+  }
+  .headerimage {
+    height: 54px;
+    width: 42px;
   }
 }
 
