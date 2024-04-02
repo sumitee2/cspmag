@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: headerFont;
-  src: url("garamond/EBGaramond08-Italic.ttf");
+  src: url("DidotTitle.otf");
 }
 @font-face {
   font-family: postTitleFont;
@@ -75,23 +75,22 @@ h1 {
 }
 
 .headerbar {
-  height: 94px;
+  height: 74px;
   width: 100%;
   box-sizing: border-box;
   overflow: hidden;
   color: #000000;
-  text-shadow: 2px 2px #7e8bab;
   font-family: headerFont;
   position: relative;
-  font-size: xx-large;
+  font-size: 44px;
 }
 
 .headerverticalcenter {
   margin: 0;
   position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  top: 55%;
+  -ms-transform: translateY(-45%);
+  transform: translateY(-45%);
 }
 
 .leftspacedtitle {
