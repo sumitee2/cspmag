@@ -31,27 +31,29 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: postTitleFont;
-  background-color: #eeeeee;
+  background-color: #edeae6;
   background-repeat: no-repeat;
   color: #313233;
 }
 
 .navbar {
-  height: 100px;
+  height: 120px;
   float: right;
   display: inline-block;
+  top: 50%;
+  -ms-transform: translateY(40%);
+  transform: translateY(40%);
 }
 
 .current {
-  color: #ffffff;
+  color: #b8a89a;
 }
 
 .uncurrent {
-  color: #a18497;
+  color: #5e1302;
 }
 
 #navlink {
-  margin-top: 13px;
   margin-right: 24px;
   font-size: 18px;
   font-family: navLinkFont;
@@ -70,15 +72,14 @@ body {
 }
 
 a {
-  color: #a05b3c;
+  color: #870808;
   text-decoration: none;
 }
 
 .headerbar {
-  height: 100px;
+  height: 120px;
   overflow: hidden;
-  color: #000000;
-  background-color: #eeeeee;
+  color: #5e1302;
   font-family: headerFont;
   position: relative;
   font-size: 46px;
@@ -112,10 +113,6 @@ a {
 
 .postContent {
   font-family: postContentFont;
-}
-
-.fullheader {
-  background-color: #eeeeee;
 }
 
 p {
@@ -193,20 +190,16 @@ p {
 }
 
 .sidebarcat {
-  background-color: #d4d6d9;
   padding: 15px;
   font-family: navLinkFont;
-}
-
-.maincontent {
-  box-shadow: 3px 6px #999999;
+  border: 0px solid #999999;
 }
 
 footer {
   text-align: center;
   margin-top: 50px;
   padding: 3px;
-  background-color: #777777;
+  background-color: #b8a89a;
   color: white;
 }
 
